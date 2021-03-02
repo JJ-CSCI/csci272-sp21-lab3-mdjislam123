@@ -7,6 +7,47 @@
 // Put the assignment code here
 
 class Quaternion {
+	public : double a, b, c, d;
+
+	Quaternion (double p, double q, double r,double s)
+{a=p;
+b=q;
+c=r;
+d=s;}
+
+bool operator ==(const Quaternion p)
+{
+	if ((p- >a==this->a)&&(p->b==this-b)&&(p->c==this->c)&&
+	(p->d==this->d))
+	
+	return true;
+	return false;
+
+}
+
+Quaternion operator+()
+{
+	Quaternion r;
+
+	return r;
+}
+
+Quaternion operator-()
+{
+	Quaternion r;
+
+	return r;
+}
+
+Quaternion operator*()
+{
+
+	Quaternion p;
+
+	return p;
+}
+	
+
 };
 
 //------------------------------
